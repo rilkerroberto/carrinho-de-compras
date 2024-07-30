@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "carrinho"
+version = "0.1.0"
+description = ""
+authors = ["rilkerroberto <94688035+rilkerroberto@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
